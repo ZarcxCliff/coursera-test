@@ -2,14 +2,14 @@ body{
     background-color: white;
 }
 .chickenc{
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 12px;
     position: relative;
     padding-top: 30px;
 }
 
 .chickenb{
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 12px;
     position: relative;
     padding-top: 30px;
