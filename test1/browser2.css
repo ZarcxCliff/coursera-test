@@ -1,0 +1,85 @@
+body{
+    background-color: gray;
+}
+.chickenc{
+    border: 2px solid black;
+    margin: 12px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.chickenb{
+    border: 2px solid black;
+    margin: 12px;
+    position: relative;
+    padding-top: 30px;
+}
+.chickens{
+    border: 2px solid black;
+    margin: 12px;
+    position: relative;
+    padding-top: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+.header{
+    text-align: center;
+}
+
+.heading{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: coral;
+    position: absolute;
+    right:0;
+    top:0;
+    padding:4px 30px 4px 30px;
+    border-top: 0;
+    border-right: 0;
+}
+.headingb{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color:brown;
+    color: aliceblue;
+    position: absolute;
+    right:0;
+    top:0;
+    padding:4px 30px 4px 30px;
+    border-top: 0;
+    border-right: 0;
+}
+.headings{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(212, 211, 140);
+    position: absolute;
+    right:0;
+    top:0;
+    padding:4px 30px 4px 30px;
+    border-top: 0;
+    border-right: 0;
+}
+
+@media(max-width:767px){.main{display:flex;
+flex-direction: column;}}
+@media (min-width:768px) and (max-width:991px){
+    .main{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin: 8px;
+    }
+    .chickenb,.chickenc{
+    flex: 1 0 250px
+
+}
+.chickens{
+    flex: 1 o 700px;
+}
+}
+
+
