@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(122, 248, 242, 0.445);
+    padding: 0;
+    margin-right: 0px;
+}
+
+p{
+    padding: 4px;
+    margin: 4px;
+}
+h2{
+    text-align: center;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a {
+    color:#951c49;
+    text-align:center;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+#nav-list a:hover{
+    background-color: darksalmon;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #61122f;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        display: none;
+    }
+}
