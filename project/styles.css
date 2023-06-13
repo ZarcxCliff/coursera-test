@@ -1,0 +1,136 @@
+body{
+    background-image: url(Lucky-Shrub-logos/back1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-size: 100%;
+    background-color: rgb(238, 255, 242);
+    font-family: 'Markazi Text' serif;
+    margin: 3rem,3rem, 5% , 5%;
+    color: rgb(66, 66, 65);
+}
+h1{
+    font-size: 3rem;
+
+}
+h2{
+    font-size: 2rem;
+}
+header > img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+
+
+section{
+    display: flex;
+}
+ article{
+    flex:1;
+ }
+ 
+ footer{
+    display: flex;
+ }
+
+ footer div{
+    flex: 1;
+ }
+ .topc{
+    /* background-image: url(Lucky-Shrub-logos/back1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; */
+    background-size: 100%;
+    border-radius: 8px;
+    background-color: rgb(104, 248, 104);
+    margin-bottom: 20px;
+ }
+  h1{
+    text-align: left;
+    color: rgb(228, 236, 228) ;
+  }
+  
+ .back{
+    color:whitesmoke ;
+ }
+  .Note{
+    border-radius: 8px;
+    gap: 12px;
+    background-color: rgb(104, 248, 104);
+    margin-right: 20px;
+  }
+  h2{
+    text-align: center;
+    color: rgb(228, 236, 228) ;
+  }
+  
+
+  p{
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .planting{
+    border: 1px solid darkgreen;
+    border-radius: 8px;
+    width: 400px;
+    height: 260px;
+    align-items: center;
+  }
+
+  .copyr{
+    background-color: rgb(104, 248, 104); 
+    font-size: 0.9rem
+  }
+  footer{
+    margin-top: 25px;
+  }
+  /* .logo{
+    width: 400px;
+    margin-left: 35px;
+  } */
+
+  h1 h2{
+    color: rgb(228, 236, 228) ;
+  }
+  ul{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid darkgreen;
+    border-radius: 8px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+  }
+  
+  li{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.37);
+  }
+
+  nav a{
+    font-size:15px;
+    text-transform: uppercase;
+    color: greenyellow;
+    padding: 12px 10px;
+    display: block;
+  }
+
+  a:hover{
+    background-color: aqua;
+    transition: 0.24;
+  }
+  .copyr p{
+    color: white;
+  }
